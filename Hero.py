@@ -13,10 +13,10 @@ class Hero(arcade.Sprite):
         self.is_Rmoving = False
         self.is_Lmoving = False
         for i in range(7):
-            sprite = arcade.Sprite(f"images/hero_textura/animation frames/anim{i + 1}.png")
+            sprite = arcade.Sprite(f"images/hero_textura/animation_frames/anim{i + 1}.png")
             self.anim1.append(sprite)
         for i in range(7):
-            sprite = arcade.Sprite(f"images/hero_textura/animation frames/anim{(i + 1) * 11}.png")
+            sprite = arcade.Sprite(f"images/hero_textura/animation_frames/anim{(i + 1) * 11}.png")
             self.anim2.append(sprite)
         for i in range(2):
             sprite = arcade.Sprite(f"images/hero_textura/hero{i + 1}.png")
